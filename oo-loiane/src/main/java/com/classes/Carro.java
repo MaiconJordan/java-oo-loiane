@@ -9,6 +9,9 @@ public class Carro {
 	double consumoCombustivel;
 	
 	
+	public Carro() {
+		
+	}
 	
 	public Carro(String marca, String modelo, int numPassageiros, double capCombustivel, double consumoCombustivel) {
 		super();
@@ -20,17 +23,17 @@ public class Carro {
 	}
 
 	void exibirAutonomia() {
-		System.out.println("A autonomia do carro é " + obterAutonomia() + " km");
+		System.out.println("A autonomia do carro é " + this.obterAutonomia() + " km");
 		
 	}
 	
 	double obterAutonomia() {
 		
-		return capCombustivel * consumoCombustivel;
+		return this.capCombustivel * this.consumoCombustivel;
 	}
 	
 	double calcularCombustivel(double km) {
-		double qtdCombustivel = km/consumoCombustivel;
+		double qtdCombustivel = km/this.consumoCombustivel;
 		return qtdCombustivel;
 	}
 }
