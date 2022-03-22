@@ -14,6 +14,10 @@ public class TesteCarro {
 		
 		van.exibirAutonomia();
 		
+		System.out.println( van.calcularCombustivel(10));
+		
+		
+		
 		
 	}
 
