@@ -5,11 +5,23 @@ public class teste {
 	public static void main (String[] args) {
 		
 	
-		Aluno aluno = new Aluno();
+		Pessoa aluno = new Aluno();
 		
-		aluno.setNome("nome");
+		Pessoa pessoa = new Pessoa();
 		
-		System.out.println(aluno.getNome());
-	}	
+		Pessoa professor = new Professor();
+		
+		
+		
+		pessoa.setEndereco("Rua 1, num 3");
+		aluno.setEndereco("Rua 2, num 3");
+		professor.setEndereco("Rua 3, num 3");
 	
+
+		System.out.println(pessoa.obterEtiquetaEndereco());
+		System.out.println(aluno.obterEtiquetaEndereco());
+		System.out.println(professor.obterEtiquetaEndereco());
+		
+		
+	}
 }

@@ -39,4 +39,11 @@ public class Aluno extends Pessoa {
 		return true;
 	}
 	
+	public String obterEtiquetaEndereco() {
+		String s = "Endereço do aluno: ";
+		s += this.getEndereco();
+		return s;
+				
+	}
+	
 }
