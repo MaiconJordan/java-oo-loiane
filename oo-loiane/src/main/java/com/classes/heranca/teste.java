@@ -5,7 +5,7 @@ public class teste {
 	public static void main (String[] args) {
 		
 	
-		Pessoa aluno = new Aluno();
+	 Aluno aluno = new Aluno();
 		
 		Pessoa pessoa = new Pessoa();
 		
@@ -13,14 +13,12 @@ public class teste {
 		
 		
 		
-		pessoa.setEndereco("Rua 1, num 3");
-		aluno.setEndereco("Rua 2, num 3");
-		professor.setEndereco("Rua 3, num 3");
-	
-
-		System.out.println(pessoa.obterEtiquetaEndereco());
-		System.out.println(aluno.obterEtiquetaEndereco());
-		System.out.println(professor.obterEtiquetaEndereco());
+		aluno.setCurso("Ciencia da Computação");
+		double[] notas = {10, 9, 8, 7};
+		
+		aluno.setNotas(notas);
+		
+		System.out.println(aluno);
 		
 		
 	}

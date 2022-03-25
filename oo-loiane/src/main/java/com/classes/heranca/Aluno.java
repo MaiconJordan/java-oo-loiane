@@ -1,5 +1,7 @@
 package com.classes.heranca;
 
+import java.util.Arrays;
+
 public class Aluno extends Pessoa {
 
 	
@@ -7,6 +9,11 @@ public class Aluno extends Pessoa {
 	private double[] notas;
 	
 	
+
+	@Override
+	public String toString() {
+		return "Aluno [curso=" + curso + ", notas=" + Arrays.toString(notas) + "]";
+	}
 
 	public Aluno() {
 		super();		
