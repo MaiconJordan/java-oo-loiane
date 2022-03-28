@@ -1,5 +1,8 @@
 package com.animais;
 
-public class AnimalEstimacao {
+public interface AnimalEstimacao {
 
+	 void brincar();
+	
+	 void levarPassear();
 }

@@ -1,5 +1,8 @@
 package com.animais;
 
-public abstract class AnimalDomesticado {
+public interface AnimalDomesticado {
 
+	 void levarVeterinario();	
+	 void alimentar();
+	
 }

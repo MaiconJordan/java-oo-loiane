@@ -5,21 +5,22 @@ public class teste {
 	public static void main (String[] args) {
 		
 	
+	 Pessoa pessoa = new Pessoa();
 	 Aluno aluno = new Aluno();
+	 Professor prof = new Professor();
+	 
+	 if(prof instanceof Professor) {
 		
-		Pessoa pessoa = new Pessoa();
-		
-		Pessoa professor = new Professor();
-		
-		
-		
-		aluno.setCurso("Ciencia da Computação");
-		double[] notas = {10, 9, 8, 7};
-		
-		aluno.setNotas(notas);
-		
-		System.out.println(aluno);
-		
-		
+		System.out.println("É do tipo Professor");
 	}
+	if(aluno instanceof Aluno) {
+			
+			System.out.println("É do tipo Aluno");
+	}
+	if(pessoa instanceof Pessoa) {
+			
+			System.out.println("É do tipo Pessoa");
+	}
+}
+
 }
