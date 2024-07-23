@@ -9,10 +9,18 @@ public class TesteCarro {
 		carro1.marca = "VW";
 		carro1.tipo = "Hatch";
 		carro1.combustivel = "Gasolina";
-		carro1.anoModelo = 98;
+		carro1.anoModelo = 1998;
+		
 		
 		// Metodo Simples
 		carro1.informarcoesCarro();
+		
+		int anoDeUsoDoCarro = carro1.anoDeUso();
+		
+		System.out.println(anoDeUsoDoCarro);
+		
+		
+		
 
 	}
 
