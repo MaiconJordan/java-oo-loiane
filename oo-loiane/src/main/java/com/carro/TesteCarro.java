@@ -19,6 +19,9 @@ public class TesteCarro {
 		
 		System.out.println(anoDeUsoDoCarro);
 		
+		System.out.println(carro1.orcamentoDaOferta(100000000));
+		
+		
 		
 		
 
