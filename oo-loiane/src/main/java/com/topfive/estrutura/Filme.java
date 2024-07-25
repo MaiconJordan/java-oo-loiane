@@ -5,17 +5,27 @@ public class Filme {
 	private String nomeFilme;
 	private String generoFilme;
 	private String diretorFilme;
-	private int notaFilme;
+	private double notaFilme;
 	
 	
-	public Filme(String nomeFilme, String generoFilme, String diretorFilme, int notaFilme) {
-		super();
+	public Filme(String nomeFilme, String generoFilme, String diretorFilme, double notaFilme) {		
 		this.nomeFilme = nomeFilme;
 		this.generoFilme = generoFilme;
 		this.diretorFilme = diretorFilme;
 		this.notaFilme = notaFilme;
 	}
-
+	
+	
+	public String classificacaoFilme() {		
+		if (this.getNotaFilme() >= 7) {
+			return "Bom";
+		}
+		else if (this.getNotaFilme() < 7 || this.getNotaFilme() >= 4) {
+			return "Médio";
+		}
+		return "Ruim";
+	}
+	
 
 	public String getNomeFilme() {
 		return nomeFilme;
@@ -47,22 +57,14 @@ public class Filme {
 	}
 
 
-	public int getNotaFilme() {
+	public double getNotaFilme() {
 		return notaFilme;
 	}
 
 
 	public void setNotaFilme(int notaFilme) {
 		this.notaFilme = notaFilme;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 	
 
 }
