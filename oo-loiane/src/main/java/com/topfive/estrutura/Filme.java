@@ -7,6 +7,8 @@ public class Filme {
 	private String diretorFilme;
 	private double notaFilme;
 	
+	public Filme() {}
+	
 	
 	public Filme(String nomeFilme, String generoFilme, String diretorFilme, double notaFilme) {		
 		this.nomeFilme = nomeFilme;

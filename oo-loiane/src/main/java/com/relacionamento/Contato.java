@@ -12,11 +12,12 @@ public class Contato {
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	public String getEndereco() {
+	}	
+	
+	public Endereco getEndereco() {
 		return endereco;
 	}
-	public void setEndereco(String endereco) {
+	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
 	public String getTelefone() {

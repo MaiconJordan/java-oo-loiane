@@ -2,13 +2,20 @@ package com.topfive.estrutura;
 
 public class Programa {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
+		
+		Filme filme = new Filme();
+		filme.setNomeFilme("Gladiador");
+		filme.setDiretorFilme("Martin Scoseze");
+		filme.setGeneroFilme("Ação");
+		filme.setNotaFilme(10);
+		
+		Pessoa pessoa1 = new Pessoa();
+		pessoa1.setNome("Maicon");
+		pessoa1.setFilmes(filme);
 
-		Filme filmeum = new Filme("Era do Gelo", "Animação", "Steve Martino", 7);
+		System.out.println(pessoa1.getFilmes().getDiretorFilme());
 		
-		System.out.println(filmeum.getNomeFilme());
-		
-		System.out.println(filmeum.classificacaoFilme());
 
 	}
 
