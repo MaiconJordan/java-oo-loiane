@@ -66,7 +66,17 @@ public  class Filme  {
 
 	public void setNotaFilme(int notaFilme) {
 		this.notaFilme = notaFilme;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Filme [nomeFilme=" + nomeFilme + ", generoFilme=" + generoFilme + ", diretorFilme=" + diretorFilme
+				+ ", notaFilme=" + notaFilme + "]";
 	}	
+	
+	
+	
 	
 
 }
