@@ -1,6 +1,6 @@
 package com.topfive.estrutura;
 
-public class Filme {
+public  class Filme  {
 	
 	private String nomeFilme;
 	private String generoFilme;
