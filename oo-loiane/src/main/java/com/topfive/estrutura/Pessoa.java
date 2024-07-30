@@ -4,7 +4,7 @@ public class Pessoa {
 	
 	
 	private String nome;
-	private Filme filmes;
+	private Filme[] filmes;
 	
 	
 	public String getNome() {
@@ -13,10 +13,11 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Filme getFilmes() {
+
+	public Filme[] getFilmes() {
 		return filmes;
 	}
-	public void setFilmes(Filme filmes) {
+	public void setFilmes(Filme[] filmes) {
 		this.filmes = filmes;
 	}
 	@Override
