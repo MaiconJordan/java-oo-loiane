@@ -22,13 +22,7 @@ public class Programa {
     System.out.print("Informe a nota do Filme: \n");
     filme.setNotaFilme(sc.nextInt());
 	
-    System.out.println(filme);
-	
-	
-	
-	
-	
-	
+    System.out.println(filme);	
 	
 	sc.close();
 		
