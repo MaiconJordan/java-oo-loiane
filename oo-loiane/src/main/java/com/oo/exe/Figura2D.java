@@ -1,5 +1,7 @@
 package com.oo.exe;
 
-public class Figura2D {
+public class Figura2D extends FiguraGeometrica {
+	
+	
 
 }
