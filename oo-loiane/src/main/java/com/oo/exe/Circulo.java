@@ -1,6 +1,7 @@
 package com.oo.exe;
 
 public class Circulo extends Figura2D {
+	
 	private double raio;
 
 	public double getRaio() {
@@ -11,5 +12,10 @@ public class Circulo extends Figura2D {
 		this.raio = raio;
 	}
 	
+	
+	@Override
+	public double calcularArea() {
+		return raio * raio * Math.PI;
+	}
 	
 }

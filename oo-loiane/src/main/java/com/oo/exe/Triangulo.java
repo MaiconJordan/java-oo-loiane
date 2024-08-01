@@ -17,4 +17,7 @@ public class Triangulo extends Figura2D {
 	}
 	
 	
+	public double calcularArea() {
+		return (altura * base) / 2;
+	}
 }
