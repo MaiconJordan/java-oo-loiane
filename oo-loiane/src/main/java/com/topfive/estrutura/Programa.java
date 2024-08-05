@@ -10,6 +10,7 @@ public class Programa {
 	
 	Filme filme = new Filme();
 	
+	
 	System.out.print("Informe o Genero do Filme: \n");
     filme.setGeneroFilme(sc.nextLine()); 
     
