@@ -1,13 +1,14 @@
 package com.chessgame.application;
 
+import com.chessgame.boardgame.Board;
 import com.chessgame.boardgame.Position;
 
 public class Program {
 
 	public static void main(String[] args) {
-		Position pos = new Position(4, 5);
-		System.out.println(pos);
 
+		
+		Board board = new Board(8, 8);
 	}
 
 }
