@@ -1,5 +1,7 @@
 package com.estruturadedados.vetor;
 
+import java.util.Arrays;
+
 import javax.swing.DefaultRowSorter;
 
 public class Vetor {
@@ -27,10 +29,26 @@ public class Vetor {
 			this.tamanho++;
 		} else {
 			throw new Exception("Vetor ja está cheio");
+		}			
+	}
+
+	
+	public int tamanho(){
+		return this.tamanho;
+	}
+
+	public String toString(){
+		
+		StringBuilder s = new StringBuilder();
+		s.append("[");
+		for(int i = 0; i <this.tamanho-1; i++){
+			s.append(this.elementos[i]);
+			s.append(", ");
 		}
-		
-		
-				
+
+		s.append("]");
+
+		return s.toString();
 	}
 
 }
