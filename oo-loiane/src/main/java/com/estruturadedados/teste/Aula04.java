@@ -18,7 +18,7 @@ public class Aula04 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		
         System.out.println(vetor);
         
 		
