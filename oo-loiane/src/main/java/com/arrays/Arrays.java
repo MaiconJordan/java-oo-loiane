@@ -13,4 +13,9 @@ public class Arrays {
 		System.out.println("Posição do array 1" + temperaturas[0]);
 		System.out.println("Quando posições tem esse array " + temperaturas.length);
 	}
+
+    public static char[] toString(double[] notas) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'toString'");
+    }
 }
