@@ -1,9 +1,5 @@
 package com.estruturadedados.vetor;
 
-import java.util.Arrays;
-
-import javax.swing.DefaultRowSorter;
-
 public class Vetor {
 	
 	private String[] elementos;

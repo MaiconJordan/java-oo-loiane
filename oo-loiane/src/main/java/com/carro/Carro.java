@@ -2,7 +2,7 @@ package com.carro;
 
 public class Carro {
 	
-	 private static final double String = 0;
+	
 	String marca;
 	 String tipo;
 	 String combustivel;

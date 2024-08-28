@@ -1,6 +1,5 @@
 package com.AulaTryCatch;
 
-import java.util.Vector;
 
 public class Exececao {
 	public static void main(String[] args) {
