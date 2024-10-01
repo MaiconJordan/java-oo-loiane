@@ -7,6 +7,9 @@ public  class Filme  {
 	private String diretorFilme;
 	private double notaFilme;
 	
+	/**
+	 * 
+	 */
 	public Filme() {}
 	
 	
@@ -15,6 +18,7 @@ public  class Filme  {
 		this.generoFilme = generoFilme;
 		this.diretorFilme = diretorFilme;
 		this.notaFilme = notaFilme;
+
 	}
 	
 	
@@ -77,6 +81,6 @@ public  class Filme  {
 	
 	
 	
-	
+	//comentario
 
 }

@@ -1,7 +1,5 @@
 package com.chessgame.application;
 
-import com.chessgame.boardgame.Board;
-import com.chessgame.boardgame.Position;
 import com.chessgame.chess.ChessMatch;
 
 public class Program {

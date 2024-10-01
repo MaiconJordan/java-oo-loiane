@@ -5,8 +5,7 @@ public class Exececao {
 	public static void main(String[] args) {
 		
 		int[] vetro = new int[4];
-		
-		
+				
 		try {
 			
 			System.out.println("print antes do erro");
@@ -18,14 +17,7 @@ public class Exececao {
 			System.out.println("Erro de indice ");
 		}		
 			
-		System.out.println("Programa continuando");
-		
-		
-		
-		
-
-		
-		
+		System.out.println("Programa continuando");		
 		
 	}
 
